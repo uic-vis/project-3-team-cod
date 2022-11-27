@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav>
+      <img  src="image/COD.png" alt="COD" >
+      <div class="navigation">
+        <ul>
+          <li><a href="#Home">Home</a></li>
+          <li><a href="#BarChart">Bar Chart</a></li>
+          <li><a href="#LinkedView_1">Linked View</a></li>
+          <li><a href="#LinkedView_2">New multiple linked view</a></li>
+          <li><a target = "_blank" href="spatial_view.html">spatial view</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <section id = "Home">
+      <div class = "home_div">
+        <span style="font-size: 50px;">Welcome to CS 424 Final project</span> </br>
+        <span style="font-size: 100px;">Chicago Speed Violations</span> </br> </br>
+        <span style="font-size: 40px;">Team COD</span> </br>
+        <span style="font-size: 40px;">Indu Reddy Pati</span> </br>
+        <span style="font-size: 40px;">Shiva Praveen Dongs</span>
+      </div>
+    </section>
+
+    <section id = "BarChart">
+      <div class = "ques3">
+          <H2 style="padding-bottom:10PX ;">Trend in Speed Violations over the Years (2014 - 2022)</H2>
+          <h4>We plotted the bar chart with comparison on increase or decrease with other bars(Months) . In this we have Months on x-axis and Violations on y-axis. And we have a number of violations on each bar.</h4>
+      </div>
+    </section>
+
+    </br> </br> </br>
+
+    <section id = "LinkedView_1">
+        </br> </br> </br> </br> </br> </br> </br>
+        <h2 style="flex-direction: column; padding-bottom:10px ">Trend in Speed Violations across Weekdays from 2014 - 2022</h2>
+        <h4 style="padding-bottom:20px ;">We created a Linked View for Brushable Scatter Chart and Bar Chart.We created a Brush on Scatter Chart to Update the Bar Chart when we Brush on particular x and y coordinate on scatter plot we can see updated weekdays number of violations on bar chart.</h4>  
+        <div class="linkedview">
+            <div class="scatter"></div>
+            <div class="plot"></div>
+        </div>
+    </section>
+
+    </br> </br> </br>
+    </br> </br> </br> </br>
+
+    <section id = "LinkedView_2">
+      <h2 style="flex-direction: column; padding-bottom:10px ">Trend in Speed Violations across Weekdays from 2014 - 2022</h2>
+      <h4 style="padding-bottom:20px ;">We created a Linked View for Brushable Scatter Chart and Bar Chart.We created a Brush on Scatter Chart to Update the Bar Chart when we Brush on particular x and y coordinate on scatter plot we can see updated weekdays number of violations on bar chart.</h4>  
+      <div class = "focus_context">
+        <svg width="960" height="500"></svg>
+      </div>
+    </section>
+   
+    <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
