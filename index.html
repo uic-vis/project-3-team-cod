@@ -13,28 +13,34 @@
       <div class="navigation">
         <ul>
           <li><a href="#Home">Home</a></li>
-          <li><a href="#BarChart">Bar Chart</a></li>
-          <li><a href="#LinkedView_1">Linked View</a></li>
-          <li><a href="#LinkedView_2">New multiple linked view</a></li>
-          <li><a target = "_blank" href="spatial_view.html">spatial view</a></li>
+          <li><a href="#BarChart">Single_View</a></li>
+          <li><a href="#LinkedView_1">Linked_View_1</a></li>
+          <li><a href="#LinkedView_2">Linked_View_2</a></li>
+          <li><a target = "_blank" href="spatial_view.html">Spatial_View</a></li>
         </ul>
       </div>
     </nav>
 
     <section id = "Home">
       <div class = "home_div">
-        <span style="font-size: 50px;">Welcome to CS 424 Final project</span> </br>
+        <span style="font-size: 50px;">Welcome to CS 424 Final Project</span> </br>
         <span style="font-size: 100px;">Chicago Speed Violations</span> </br> </br>
         <span style="font-size: 40px;">Team COD</span> </br>
         <span style="font-size: 40px;">Indu Reddy Pati</span> </br>
-        <span style="font-size: 40px;">Shiva Praveen Dongs</span>
+        <span style="font-size: 40px;">Shiva Praveen Donga</span>
       </div>
     </section>
 
+    </br> </br> </br>
+    </br> </br> </br>
+
     <section id = "BarChart">
       <div class = "ques3">
-          <H2 style="padding-bottom:10PX ;">Trend in Speed Violations over the Years (2014 - 2022)</H2>
-          <h4>We plotted the bar chart with comparison on increase or decrease with other bars(Months) . In this we have Months on x-axis and Violations on y-axis. And we have a number of violations on each bar.</h4>
+          </br> </br> </br>
+          </br> </br> </br>
+          <h2 style="padding-bottom:10PX ;">Trend in Speed Violations over the Months (2014 - 2022)</h2>
+          <h4>Below Interactive Bar Chart Compares Increase or Decrease in Speed Violations Over Months between 2014 - 2022. Months on X-axis and Violations on Y-axis. And Each Bar has Number of Violations on Top.</h4>
+          <p class="svg_p">** Hover Over Bar to See Percent Increase or Decrease in Speed Violations for Different Months in Comparison to Respective Month **</p>
       </div>
     </section>
 
@@ -42,8 +48,9 @@
 
     <section id = "LinkedView_1">
         </br> </br> </br> </br> </br> </br> </br>
-        <h2 style="flex-direction: column; padding-bottom:10px ">Trend in Speed Violations across Weekdays from 2014 - 2022</h2>
-        <h4 style="padding-bottom:20px ;">We created a Linked View for Brushable Scatter Chart and Bar Chart.We created a Brush on Scatter Chart to Update the Bar Chart when we Brush on particular x and y coordinate on scatter plot we can see updated weekdays number of violations on bar chart.</h4>  
+        <h2 style="flex-direction: column; padding-bottom:10px ">Trend in Speed Violations across Weekdays (2014 - 2022)</h2>
+        <h4 style="padding-bottom:20px ;">Created a Linked View for Brushable Scatter Chart and Bar Chart. A Brush on Scatter Chart will Update the Bar Chart. When Brushed on Particular X and Y Coordinate (Coordinates of Address) on Scatter Plot, the Bar Chart is Updated with Weekdays Speed Violations of Brushed Area on Scatter.</h4>  
+        <p class="svg_p">** Brush over Scatter Plot to Update Bar Chart **</p>
         <div class="linkedview">
             <div class="scatter"></div>
             <div class="plot"></div>
@@ -54,8 +61,9 @@
     </br> </br> </br> </br>
 
     <section id = "LinkedView_2">
-      <h2 style="flex-direction: column; padding-bottom:10px ">Trend in Speed Violations across Weekdays from 2014 - 2022</h2>
-      <h4 style="padding-bottom:20px ;">We created a Linked View for Brushable Scatter Chart and Bar Chart.We created a Brush on Scatter Chart to Update the Bar Chart when we Brush on particular x and y coordinate on scatter plot we can see updated weekdays number of violations on bar chart.</h4>  
+      <h2 style="flex-direction: column; padding-bottom:10px ">Trend in Speed Violations over Years (2015 - 2021)</h2>
+      <h4 style="padding-bottom:20px ;">Created a Linked View for Zoomable / Brushable Area Charts. The Area Chart on Top is Brushed version of Area Chart at Bottom. And also the Area Chart on Top can be Zoomed. The Area Charts Represents the Speed Violations Trend Over the Years.</h4>  
+      <p class="svg_p">** Double Click on the Area Chart at Top to Zoom Or Brush the Area Chart at Bottom to Zoom in; the Area Chart at Top is Updated. **</p>
       <div class = "focus_context">
         <svg width="960" height="500"></svg>
       </div>

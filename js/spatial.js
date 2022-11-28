@@ -178,9 +178,9 @@ d3.json("data/violations1.json").then(function(data_1){
                 
                                         spatialBar_svg.append("text")
                                 .attr("class", "label")
-                                .attr("x", -(spatialBar_height - spatialBar_margin.bottom - spatialBar_margin.top) / 80)
-                                .attr("y", spatialBar_margin.bottom / 150)
-                                // .attr("transform", "rotate(-90)")
+                                .attr("x", -(spatialBar_height - spatialBar_margin.bottom - spatialBar_margin.top) / 10)
+                                .attr("y", spatialBar_margin.bottom / 10)
+                                .attr("transform", "rotate(-90)")
                                 .attr("text-anchor", "middle")
                                 .text("Violations ↑");
                 // Create the u variable

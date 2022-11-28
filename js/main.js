@@ -705,12 +705,6 @@ d3.json("data/violations1.json").then(function(data_1){
   });
 });
 
-
-
-  //   d3.csv('data/violations_datewise.csv').then( function(data) {
-  //     console.log("dateViolationsWiseData:", data);
-  //     focusContext_dateViolations(data);
-  // })
 // Label on Y - Axis
 // Set Dynamic Y - Scale
 d3.csv("data/violations_datewise.csv").then( function(data) {
@@ -737,7 +731,6 @@ d3.csv("data/violations_datewise.csv").then( function(data) {
   var focusContext_xAxis = d3.axisBottom(focusContext_x),
       focusContext_xAxis2 = d3.axisBottom(focusContext_x2),
       focusContext_yAxis = d3.axisLeft(focusContext_y);
-      // .ticks(5);
 
   var focusContext_brush = d3.brushX()
       .extent([[0, 0], [focusContext_width, focusContext_height2]])
@@ -799,7 +792,7 @@ d3.csv("data/violations_datewise.csv").then( function(data) {
   focusContext_focus
     .append("text")
     .attr("class", "label")
-    .attr("x", -(focusContext_height - focusContext_margin.bottom - focusContext_margin.top) / 200)
+    .attr("x", -(focusContext_height - focusContext_margin.bottom - focusContext_margin.top) / 600)
     .attr("y", focusContext_margin.bottom / 300)
     // .attr("transform", "rotate(-90)")
     .attr("text-anchor", "middle")
@@ -858,12 +851,6 @@ d3.csv("data/violations_datewise.csv").then( function(data) {
         // focusContext_focus.select(".axis--y").call(focusContext_yAxis);
         context.select(".brush").call(focusContext_brush.move, focusContext_x.range().map(t.invertX, t));
       }
-      
-      // function type(d) {
-      //   d.date = parseDate(d.date);
-      //   d.price = +d.price;
-      //   return d;
-      // }
 });
 
 

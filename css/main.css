@@ -133,5 +133,11 @@ nav .navigation ul li a:hover{
 	font-family: 'Times New Roman', Times, serif;
 }
 
+.svg_p {
+    color: rgb(110, 108, 108);
+    text-align: center;
+    margin: 2em 0;
+}
+
 
   
