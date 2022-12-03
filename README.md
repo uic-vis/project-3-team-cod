@@ -1,6 +1,6 @@
 ## **SPEED CAMERA VIOLATIONS**
-### **Link for Project - 2 Observable:**  https://observablehq.com/@indureddypati/project2
-  
+### **Link for Project - 3 :**  https://indureddypati.github.io/ChicagoSpeedViolations.github.io/
+
 Team COD
   
 Shiva Praveen Donga (UIN: 676463688)
