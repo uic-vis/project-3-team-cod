@@ -71,7 +71,6 @@ We created a Linked View for Brushable Scatter Chart and Bar Chart. Scatter plot
 - Weekends have less violations when compared to weekdays.
 - Reasons for Less violations on Weekends could be:  
     People being on trips for weekends to different cities or resting at home (Not in rush for not being late to work).
-- From question 2 we saw Irving park has more violations when we brush that exact same irving park coordinates in this scatter, Saturday has most violations.
 
 **3.3.Questions - 3:** 
 
