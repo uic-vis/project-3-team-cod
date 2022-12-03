@@ -10,7 +10,7 @@ Indu Reddy Pati (UIN: 657783668)
 
 ## 1. **Introduction:**
   
-In this project, we used a Speed Camera Violation dataset to visualize the attributes of interest. The main goal of this project is to explore data visualization. We used Pandas, GeoPandas, Matplotlib and Jupyter to import, transform, visualize and analyze a dataset. Before visualizing the dataset, we have done data preprocessing and data cleaning. We comprehensively explored the dataset using different plotting techniques. We explored every insight possible in the dataset using multiple attributes.
+In this project, we used a Speed Camera Violation dataset to visualize the attributes of interest. The main goal of this project is to explore data visualization. We used Python, Javascript, D3.js to import, transform, visualize and analyze a dataset. Before visualizing the dataset, we have done data preprocessing and data cleaning. We comprehensively explored the dataset using different plotting techniques. We explored every insight possible in the dataset using multiple attributes.
 
 ## 2. **Data Description:**
 
