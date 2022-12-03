@@ -97,3 +97,10 @@ We created Linked Map and Bar Chart Shows the Trend in Speed Violations Across D
 <img width="1440" alt="Screen Shot 2022-12-02 at 7 12 57 PM" src="https://user-images.githubusercontent.com/53014597/205415288-85abf3a7-c70a-4127-ba0c-9e6b6d32ff4d.png">
 
 Click on Clusters to Zoom for Location Pin. Then, Hover Over for Total Name of the Location and Total Number of Violations and Click on Pin to See Trend Over Years at Location. And Hover Over Bar for Total Number of Violations in that Year for that Location
+
+**Observations for Spatial View**
+- More speed cameras were installed to north of chicago than south.
+- More violations are to north part of chicago.
+- From the plot we can observe that over the year 2015-2021, the most violations are from Irving park with 760522 violations in total.
+- And next most violations are from the same neighborhood which is Western Ave with 610585 violations.
+- The least violations is from Superior St. With 235 violations. This neighborhood has less violations compared to other neighborhoods.
